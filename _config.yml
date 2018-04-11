@@ -7,6 +7,8 @@ rss:
 # enter your weibo ID
 weibo_show:  
 
+github: https://github.com/lhy1024
+
 scroll_spy: true
 
 mathjax:
