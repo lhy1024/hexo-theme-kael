@@ -39,12 +39,13 @@ Modify theme setting in blog folder `_config.yml` to `kael`.
 
   [1]: http://ww1.sinaimg.cn/large/650625begw1egigcsgddcg20z60iue81.gif
 
-### update by lhy1024
-add latex,favicon  
-remove duoshuo    
-
-requests of latex:  
+ 
+## Requests of latex 
 pandoc and hexo-renderer-pandoc   
 ```
 npm install hexo-renderer-pandoc --save
 ```
+
+## Update by lhy1024
+add latex,favicon  
+remove duoshuo   
