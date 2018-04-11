@@ -1,7 +1,20 @@
 var hasPushstate = !!(window.history && history.pushState);
 
+//var smallScreen = window.screen.width < 500;
+var smallScreen = false;
 
+//    Generate table of contents
+var generateTOC = function() {
+    $(".post-content").find('h1,h2,h3,h4')
+        .each(function (i) {
+            var current = $(this);
+            current.attr("id", "title" + i);
+            $("#toc").append("<li><a id='link" + i + "' href='#title" +
+                i + "' title='" + current.text() + "'>" +
+                current.text() + "</a></li>");
+        });
 
+};
 
 //   Scroll spy headline
 
