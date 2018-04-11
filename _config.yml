@@ -8,3 +8,7 @@ rss:
 weibo_show:  
 
 scroll_spy: true
+
+mathjax:
+  enable: true
+  cdn: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML

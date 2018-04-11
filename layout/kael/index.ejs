@@ -23,13 +23,6 @@
             </div>
         </header>
         <section class="post-excerpt">
-            <p>
-                <% if (post.excerpt){ %>
-                <%- post.excerpt %>
-                <% } else { %>
-                <%- post.content.replace(/<(?:.|\n)*?>/gm, '').substr(0, 220) %>
-                <% } %>
-            </p>
             <% if (theme.excerpt_link) { %>
             <p>
                 <a data-pjax href="<%- config.root %><%- post.path %>"
