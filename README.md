@@ -35,17 +35,15 @@ $ git clone git@github.com:yuche/hexo-theme-kael.git themes/kael
 
 Modify theme setting in blog folder `_config.yml` to `kael`.
 
-
-
-  [1]: http://ww1.sinaimg.cn/large/650625begw1egigcsgddcg20z60iue81.gif
-
  
-## Requests of latex 
-pandoc and hexo-renderer-pandoc   
+### Requests of latex 
+[pandoc](https://pandoc.org/) and hexo-renderer-pandoc   
 ```
 npm install hexo-renderer-pandoc --save
 ```
 
 ## Update by lhy1024
-add latex,favicon  
+add latex(Mathjax) and favicon  
 remove duoshuo   
+
+[1]: http://ww1.sinaimg.cn/large/650625begw1egigcsgddcg20z60iue81.gif
