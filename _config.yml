@@ -14,3 +14,11 @@ scroll_spy: true
 mathjax:
   enable: true
   cdn: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+gitment:
+  # enable: true
+  owner: lhy1024
+  repo: lhy1024.github.io
+  client_id: 
+  client_secret: 
+  # lazy: true
